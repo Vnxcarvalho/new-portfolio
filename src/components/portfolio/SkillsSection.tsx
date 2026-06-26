@@ -13,9 +13,9 @@ const skills = [
 
 export function SkillsSection() {
   return (
-    <section className="px-4 sm:px-8 lg:px-12 mt-10 sm:mt-14">
+    <section className="px-4 sm:px-8 lg:px-12 mt-6 sm:mt-8">
       <div className="mb-6 reveal">
-        <h2 className="font-display text-[13px] tracking-[0.18em]">HABILIDADES</h2>
+        <h2 className="font-display text-[36px] sm:text-[44px] lg:text-[30px] leading-none">HABILIDADES</h2>
       </div>
       <div className="grid grid-cols-2 md:grid-cols-4 border border-border rounded-md reveal reveal-delay-1">
         {skills.map((skill, i) => {

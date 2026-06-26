@@ -33,7 +33,7 @@ function Index() {
         <AboutSection />
         <ContactSection />
 
-        <footer className="px-4 sm:px-8 lg:px-12 mt-16 mb-8 pt-6 border-t border-border flex flex-wrap items-center justify-between gap-4">
+        <footer className="px-4 sm:px-8 lg:px-12 mt-8 mb-8 pt-6 border-t border-border flex flex-wrap items-center justify-between gap-4">
           <p className="text-xs text-muted-foreground">© 2026 Alan Carvalho. Todos os direitos reservados.</p>
           <div className="flex items-center gap-2 text-xs text-muted-foreground">
             <Lock className="h-3 w-3" /> Site Seguro

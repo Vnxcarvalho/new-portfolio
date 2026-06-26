@@ -1,13 +1,13 @@
 export function AboutSection() {
   return (
-    <section className="px-4 sm:px-8 lg:px-12 mt-20 sm:mt-32">
+    <section className="px-4 sm:px-8 lg:px-12 mt-8 sm:mt-12">
       <div className="grid grid-cols-12 gap-8 lg:gap-16">
         <h2 className="col-span-12 lg:col-span-6 font-display text-[28px] sm:text-[38px] lg:text-[44px] leading-[1.05] reveal">
-          CRAFTING MEANINGFUL
+          ENGENHARIA DE SOFTWARE,
           <br />
-          BRANDS &amp; INTUITIVE
+          DESENVOLVIMENTO
           <br />
-          EXPERIENCES
+          E TECNOLOGIA
         </h2>
         <div className="col-span-12 lg:col-span-6 space-y-5 text-[15px] leading-relaxed text-foreground/80 reveal reveal-delay-1">
           <p className="text-foreground text-[15px] sm:text-[17px]">

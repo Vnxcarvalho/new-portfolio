@@ -11,28 +11,28 @@ const contacts = [
     label: "LinkedIn",
     icon: Linkedin,
     // TODO: atualize com seu perfil do LinkedIn
-    href: "https://www.linkedin.com/in/alanviniciuscarvalho",
+    href: "https://www.linkedin.com/in/alan-carvalho-74165320a/",
     display: "linkedin.com/in/alanviniciuscarvalho",
   },
   {
     label: "WhatsApp",
     icon: MessageCircle,
     // TODO: substitua pelo seu número no formato internacional
-    href: "https://wa.me/5511999999999",
+    href: "https://wa.me/5596984006764",
     display: "WhatsApp",
   },
   {
     label: "GitHub",
     icon: Github,
     // TODO: atualize com seu usuário do GitHub
-    href: "https://github.com/AlanCarvalho",
+    href: "https://github.com/Vnxcarvalho?tab=repositories",
     display: "github.com/AlanCarvalho",
   },
 ];
 
 export function ContactSection() {
   return (
-    <section id="contact" className="px-4 sm:px-8 lg:px-12 mt-20 sm:mt-32">
+    <section id="contact" className="px-4 sm:px-8 lg:px-12 mt-8 sm:mt-12">
       <div className="border-t border-border pt-10">
         <h2 className="font-display text-[13px] tracking-[0.18em] mb-8 reveal">CONTATO</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">

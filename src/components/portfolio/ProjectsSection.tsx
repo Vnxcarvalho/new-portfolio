@@ -1,39 +1,40 @@
-import projectDashboard from "@/assets/project-dashboard.jpg";
-import projectChat from "@/assets/project-chat.jpg";
-import projectApi from "@/assets/project-api.jpg";
+import delicattaJoalheria from "@/assets/delicatta-joalheria.png";
+import aureaEssentials from "@/assets/aurea-essentials.png";
+import csharp from "@/assets/csharp.webp";
+
 
 const projects = [
   {
-    image: projectDashboard,
-    title: "Dashboard Administrativo",
+    image: delicattaJoalheria,
+    title: "Delicatta Joalheria",
     description:
       "Painel de gerenciamento com gráficos em tempo real, controle de usuários e relatórios exportáveis.",
     tags: ["React", "TypeScript", "Node.js"],
     year: "2025",
   },
   {
-    image: projectChat,
-    title: "Chat em Tempo Real",
+    image: aureaEssentials,
+    title: "Aurea Essentials",
     description:
       "Aplicação de mensagens com WebSockets, autenticação JWT e salas privadas.",
-    tags: ["Socket.io", "React", "Node.js"],
-    year: "2025",
+    tags: ["TypeScript", "React", "Node.js"],
+    year: "2026",
   },
   {
-    image: projectApi,
-    title: "API REST",
+    image: csharp,
+    title: "Tabela de mesa C#",
     description:
       "API robusta com autenticação, documentação Swagger e integração com banco de dados relacional.",
     tags: ["Node.js", "C#", "SQL"],
-    year: "2024",
+    year: "2026",
   },
 ];
 
 export function ProjectsSection() {
   return (
-    <section className="px-4 sm:px-8 lg:px-12 mt-20 sm:mt-28">
+    <section className="px-4 sm:px-8 lg:px-12 mt-8 sm:mt-12">
       <div className="flex flex-col sm:flex-row sm:items-end gap-4 mb-8 reveal">
-        <h2 className="font-display text-[36px] sm:text-[44px] lg:text-[52px] leading-none">PROJETOS</h2>
+        <h2 className="font-display text-[36px] sm:text-[44px] lg:text-[30px] leading-none">PROJETOS</h2>
         <p className="text-xs text-muted-foreground max-w-xs sm:ml-auto">
           Alguns dos projetos que desenvolvi, aplicando boas práticas e tecnologias modernas.
         </p>
