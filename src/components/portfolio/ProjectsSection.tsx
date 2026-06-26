@@ -49,7 +49,7 @@ const projects = [
 
 export function ProjectsSection() {
   return (
-    <section className="px-4 sm:px-8 lg:px-12 mt-8 sm:mt-12">
+    <section id="projects" className="px-4 sm:px-8 lg:px-12 mt-8 sm:mt-12">
       <div className="flex flex-col sm:flex-row sm:items-end gap-4 mb-8 reveal">
         <h3 className="font-display text-[25px] sm:text-[25px] lg:text-[10px] leading-none">PROJETOS RECENTES</h3>
         <p className="text-xs text-muted-foreground max-w-xs sm:ml-auto">
