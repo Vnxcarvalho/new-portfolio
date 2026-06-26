@@ -71,7 +71,7 @@ export function HeroSection() {
 
         {/* Painel lateral de info */}
         <div className="col-span-12 lg:col-span-5 reveal reveal-delay-1">
-          <div className="rounded-2xl border border-border p-6 space-y-5">
+          <div className="rounded-2xl border border-border p-6 space-y-9">
             <div>
               <p className="text-[10px] tracking-[0.18em] font-display text-muted-foreground mb-2">
                 DESENVOLVO
@@ -87,7 +87,7 @@ export function HeroSection() {
                 ))}
               </div>
             </div>
-            <div className="border-t border-border pt-5">
+            <div className="border-t border-border pt-9">
               <p className="text-[10px] tracking-[0.18em] font-display text-muted-foreground mb-2">
                 STACK PRINCIPAL
               </p>
@@ -103,7 +103,7 @@ export function HeroSection() {
                 ))}
               </div>
             </div>
-            <div className="border-t border-border pt-5 grid grid-cols-2 gap-4">
+            <div className="border-t border-border pt-9 grid grid-cols-2 gap-4">
               <div>
                 <p className="font-display text-[28px] leading-none">6+</p>
                 <p className="mt-1 text-[10px] tracking-[0.12em] font-display text-muted-foreground">
@@ -117,7 +117,7 @@ export function HeroSection() {
                 </p>
               </div>
             </div>
-            <div className="border-t border-border pt-5">
+            <div className="border-t border-border pt-9">
               <p className="text-[10px] tracking-[0.18em] font-display text-muted-foreground mb-1">
                 FORMAÇÃO
               </p>
