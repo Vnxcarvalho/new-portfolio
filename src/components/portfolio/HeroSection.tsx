@@ -30,19 +30,10 @@ export function HeroSection() {
             <br /><br />
             Desenvolvedor de Software
           </h1>
-          <a
-            href="#contact"
-            className="mt-7 inline-flex items-center gap-1 rounded-full bg-foreground text-background pl-5 pr-1.5 py-1.5 text-xs tracking-[0.2em] font-display"
-          >
-            Entre em contato
-            <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-background text-foreground">
-              <ArrowRight className="h-3.5 w-3.5" />
-            </span>
-          </a>
         </div>
 
-        <div className="col-span-12 lg:col-span-5 reveal reveal-delay-1">
-          <div className="relative mx-auto aspect-[4/5] w-full max-w-[300px] sm:max-w-[400px] overflow-hidden rounded-b-[200px] rounded-t-[200px] lg:rounded-t-[0] lg:rounded-b-[200px]">
+        <div className="col-span-12 lg:col-span-5 flex flex-col items-center reveal reveal-delay-1">
+          <div className="relative w-full max-w-[300px] sm:max-w-[400px] aspect-[4/5] overflow-hidden rounded-b-[200px] rounded-t-[200px] lg:rounded-t-[0] lg:rounded-b-[200px]">
             <img
               src={profile}
               alt="Alan Carvalho - Desenvolvedor de Software"
@@ -51,10 +42,19 @@ export function HeroSection() {
               className="h-full w-full object-cover"
             />
           </div>
+          <a
+            href="#contact"
+            className="mt-6 inline-flex items-center gap-1 rounded-full bg-foreground text-background pl-5 pr-1.5 py-1.5 text-xs tracking-[0.2em] font-display"
+          >
+            Entre em contato
+            <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-background text-foreground">
+              <ArrowRight className="h-3.5 w-3.5" />
+            </span>
+          </a>
         </div>
       </div>
 
-      <div className="mt-10 sm:mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-8 border-t border-border pt-8">
+      <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-6 border-t border-border pt-8">
         {services.map((s, i) => (
           <div key={s.title} className={`reveal reveal-delay-${Math.min(i + 1, 4)}`}>
             <h3 className="font-display text-[11px] tracking-[0.12em]">{s.title.toUpperCase()}</h3>

@@ -13,7 +13,7 @@ const skills = [
 
 export function SkillsSection() {
   return (
-    <section className="px-4 sm:px-8 lg:px-12 mt-20 sm:mt-24">
+    <section className="px-4 sm:px-8 lg:px-12 mt-10 sm:mt-14">
       <div className="mb-6 reveal">
         <h2 className="font-display text-[13px] tracking-[0.18em]">HABILIDADES</h2>
       </div>
