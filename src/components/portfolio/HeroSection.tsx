@@ -23,7 +23,7 @@ const services = [
 export function HeroSection() {
   return (
     <section className="px-4 sm:px-8 lg:px-12 pt-8 lg:pt-8">
-      <div className="grid grid-cols-12 gap-6 lg:gap-x-10 lg:gap-y-4 items-start">
+      <div className="grid grid-cols-12 gap-6 lg:gap-10 items-start">
         <div className="col-span-12 lg:col-span-4 pt-4 reveal">
           <h1 className="mt-3 font-display text-[32px] sm:text-[42px] lg:text-[47px] leading-[0.95]">
             Alan Carvalho
@@ -32,8 +32,8 @@ export function HeroSection() {
           </h1>
         </div>
 
-        <div className="col-span-12 lg:col-span-5 flex flex-col items-center reveal reveal-delay-1">
-          <div className="relative w-full max-w-[300px] sm:max-w-[400px] lg:max-w-[340px] aspect-[4/5] overflow-hidden rounded-b-[200px] rounded-t-[200px] lg:rounded-t-[0] lg:rounded-b-[200px]">
+        <div className="col-span-12 lg:col-span-8 flex flex-col items-center lg:items-start reveal reveal-delay-1">
+          <div className="relative w-full max-w-[300px] sm:max-w-[380px] aspect-[4/5] overflow-hidden rounded-b-[200px] rounded-t-[200px] lg:rounded-t-[0] lg:rounded-b-[200px]">
             <img
               src={profile}
               alt="Alan Carvalho - Desenvolvedor de Software"
@@ -42,18 +42,17 @@ export function HeroSection() {
               className="h-full w-full object-cover"
             />
           </div>
-        </div>
-
-        <div className="col-span-12 lg:col-span-4 reveal reveal-delay-2">
-          <a
-            href="#contact"
-            className="inline-flex items-center gap-1 rounded-full bg-foreground text-background pl-5 pr-1.5 py-1.5 text-xs tracking-[0.2em] font-display"
-          >
-            Entre em contato
-            <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-background text-foreground">
-              <ArrowRight className="h-3.5 w-3.5" />
-            </span>
-          </a>
+          <div className="w-full max-w-[300px] sm:max-w-[380px] mt-6 flex justify-start">
+            <a
+              href="#contact"
+              className="inline-flex items-center gap-1 rounded-full bg-foreground text-background pl-5 pr-1.5 py-1.5 text-xs tracking-[0.2em] font-display"
+            >
+              Entre em contato
+              <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-background text-foreground">
+                <ArrowRight className="h-3.5 w-3.5" />
+              </span>
+            </a>
+          </div>
         </div>
       </div>
 

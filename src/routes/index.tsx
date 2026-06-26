@@ -2,9 +2,12 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Lock } from "lucide-react";
 import { useReveal } from "@/hooks/use-reveal";
 import { HeroSection } from "@/components/portfolio/HeroSection";
+import { AboutSection } from "@/components/portfolio/AboutSection";
 import { SkillsSection } from "@/components/portfolio/SkillsSection";
 import { ProjectsSection } from "@/components/portfolio/ProjectsSection";
-import { AboutSection } from "@/components/portfolio/AboutSection";
+import { CertificationsSection } from "@/components/portfolio/CertificationsSection";
+import { WorkProcessSection } from "@/components/portfolio/WorkProcessSection";
+import { ObjectivesSection } from "@/components/portfolio/ObjectivesSection";
 import { ContactSection } from "@/components/portfolio/ContactSection";
 
 export const Route = createFileRoute("/")({
@@ -28,9 +31,12 @@ function Index() {
         </header>
 
         <HeroSection />
+        <AboutSection />
         <SkillsSection />
         <ProjectsSection />
-        <AboutSection />
+        <CertificationsSection />
+        <WorkProcessSection />
+        <ObjectivesSection />
         <ContactSection />
 
         <footer className="px-4 sm:px-8 lg:px-12 mt-8 mb-8 pt-6 border-t border-border flex flex-wrap items-center justify-between gap-4">
