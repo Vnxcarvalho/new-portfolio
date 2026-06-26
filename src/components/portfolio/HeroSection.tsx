@@ -38,10 +38,6 @@ export function HeroSection() {
             <MapPin className="h-3 w-3" strokeWidth={1.5} />
             Brasil
           </span>
-          <span className="flex items-center gap-1.5">
-            <Calendar className="h-3 w-3" strokeWidth={1.5} />
-            2+ anos de experiência
-          </span>
         </div>
       </div>
 
@@ -52,7 +48,7 @@ export function HeroSection() {
             Alan<br />Carvalho
           </h1>
           <p className="mt-4 text-[13px] sm:text-[15px] text-muted-foreground max-w-lg leading-relaxed">
-            Desenvolvedor Full Stack focado em construir aplicações modernas, escaláveis e com experiência de usuário de alta qualidade. Cursando Análise e Desenvolvimento de Sistemas.
+            Desenvolvedor Full Stack focado em construir aplicações modernas, escaláveis e com experiência de usuário de alta qualidade.
           </p>
           <div className="mt-6 flex flex-wrap items-center gap-3">
             <a
@@ -78,10 +74,26 @@ export function HeroSection() {
           <div className="rounded-2xl border border-border p-6 space-y-5">
             <div>
               <p className="text-[10px] tracking-[0.18em] font-display text-muted-foreground mb-2">
+                DESENVOLVO
+              </p>
+              <div className="flex flex-wrap gap-2">
+                {["Páginas & Landing Pages", "Sites Institucionais", "Catálogos Digitais", "Blogs", "Sistemas Web", "APIs & Backends"].map((item) => (
+                  <span
+                    key={item}
+                    className="rounded-full bg-foreground/5 border border-border px-3 py-1 text-[10px] tracking-wide font-display text-foreground/70"
+                  >
+                    {item}
+                  </span>
+                ))}
+              </div>
+            </div>
+            <div className="border-t border-border pt-5">
+              <p className="text-[10px] tracking-[0.18em] font-display text-muted-foreground mb-2">
                 STACK PRINCIPAL
               </p>
               <div className="flex flex-wrap gap-2">
                 {stack.map((tech) => (
+
                   <span
                     key={tech}
                     className="rounded-full border border-border px-3 py-1 text-[10px] tracking-wider font-display text-muted-foreground"

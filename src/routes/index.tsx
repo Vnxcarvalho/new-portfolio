@@ -26,7 +26,7 @@ function Index() {
         <header className="flex items-center justify-between px-4 sm:px-8 lg:px-12 pt-6 sm:pt-8">
           <a href="#" className="flex items-center gap-2 font-display text-sm tracking-wider">
             <span className="h-2.5 w-2.5 rounded-full bg-foreground inline-block" />
-            Dev
+            Desenvolvedor de Software
           </a>
         </header>
 

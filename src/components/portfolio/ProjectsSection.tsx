@@ -9,7 +9,7 @@ const projects = [
     image: delicattaJoalheria,
     title: "Delicatta Joalheria",
     description:
-      "Painel de gerenciamento com gráficos em tempo real, controle de usuários e relatórios exportáveis.",
+      "A Delicatta Joalheria foi uma landing page criada para a loja Delicatta, apresentando produtos reais, disponibilidade de estoque, preços e links reais para direcionamento de contatos.",
     tags: ["React", "TypeScript", "Node.js"],
     year: "2025",
     codeUrl: "https://github.com/Vnxcarvalho/delicatta-joalheria",
@@ -19,7 +19,7 @@ const projects = [
     image: aureaEssentials,
     title: "Aurea Essentials",
     description:
-      "Aplicação de mensagens com WebSockets, autenticação JWT e salas privadas.",
+      "Aurea Essential é um projeto real em desenvolvimento para divulgação de Óleos Essenciais, no qual terá opção de acompanhar compras, rastreios, realizar compras com o cartão e monitoramento de estoque.",
     tags: ["TypeScript", "React", "Node.js"],
     year: "2026",
     codeUrl: "https://github.com/Vnxcarvalho/aurea-essentials",
@@ -39,7 +39,7 @@ const projects = [
     image: assistencia,
     title: "Assistência Técnica",
     description:
-      "Sistema de gerenciamento para assistências técnicas de informática, com controle de estoque, ordens de serviço e clientes.",
+      "Projetos de mesas utilizados de tabelas reais, com testes diretamente no código em C#",
     tags: ["React", "Node.js"],
     year: "2026",
     codeUrl: "https://github.com/Vnxcarvalho/Pagina-Assistencia",
