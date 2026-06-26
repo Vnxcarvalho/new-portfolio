@@ -22,9 +22,9 @@ const defaultFeedbacks: Feedback[] = [
     stars: 5,
   },
   {
-    quote: "Resolve problemas com clareza e sempre sugere melhorias. Recomendo sem hesitar.",
+    quote: "Resolve problemas com clareza e sempre sugere melhorias. E fez um ótimo trabalho com rastreio.",
     name: "Cliente",
-    project: "Assistência Técnica",
+    project: "Aurea Essentials",
     stars: 5,
   },
 ];
