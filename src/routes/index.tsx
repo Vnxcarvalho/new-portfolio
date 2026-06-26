@@ -13,7 +13,7 @@ export const Route = createFileRoute("/")({
 });
 
 const services = [
-  { title: "Desenvolvimento de Software", desc: "Desenvolvedor Full Stack especializado na criação de aplicações modernas, escaláveis e responsivas." },
+  { title: "Desenvolvimento de Software", desc: "Desenvolvedor Full Stack especializado na criação de aplicações escaláveis e responsivas." },
   { title: "Banco de dados", desc: "Modelagem, gerenciamento e otimização de bancos de dados relacionais e não relacionais para aplicações seguras e escaláveis." },
   { title: "Cloud & Deploy", desc: "Configuração de ambientes, deploy contínuo e hospedagem de aplicações utilizando Docker, Git e plataformas de cloud." },
   { title: "Técnico em Informática", desc: "Especialista em manutenção de notebooks e computadores, montagem e upgrades." },
@@ -44,7 +44,7 @@ function Index() {
             <span className="h-2.5 w-2.5 rounded-full bg-foreground inline-block" />
             Dev
           </a>
-          
+
         </header>
 
         {/* HERO */}
@@ -52,8 +52,9 @@ function Index() {
           <div className="grid grid-cols-12 gap-6 lg:gap-10 items-start">
             {/* Left text */}
             <div className="col-span-12 lg:col-span-4 pt-4">
-              <h1 className="mt-3 font-display text-[50px] sm:text-[50px] lg:text-[47px] leading-[0.95]">
+              <h1 className="mt-3 font-display text-[34px] sm:text-[42px] lg:text-[47px] leading-[0.95]">
                 Alan Carvalho
+                <br />
                 Desenvolvedor de Software
               </h1>
               <br />
@@ -71,12 +72,12 @@ function Index() {
 
             {/* Portrait */}
             <div className="col-span-12 lg:col-span-5">
-              <div className="relative mx-auto aspect-[4/5] w-full max-w-[420px] overflow-hidden rounded-b-[210px] rounded-t-[210px] lg:rounded-t-[0] lg:rounded-b-[210px]">
+              <div className="relative mx-auto aspect-[4/5] w-full max-w-[400px] overflow-hidden rounded-b-[200px] rounded-t-[200px] lg:rounded-t-[0] lg:rounded-b-[200px]">
                 <img
                   src={profile}
-                  alt="Portrait of Solt, UI/UX and brand designer"
-                  width={896}
-                  height={1024}
+                  alt="Desenvolvedor de software"
+                  width={800}
+                  height={900}
                   className="h-full w-full object-cover"
                 />
               </div>
@@ -141,7 +142,7 @@ function Index() {
                 Hey, I'm Solt, a UI/UX and brand designer passionate about creating visually compelling and user-friendly digital experiences.
               </p>
               <p className="text-muted-foreground">
-                With a keen eye for aesthetics and a deep understanding of user behavior, I design brands and interfaces that not only look great but also resonate with audiences. Whether it's building a brand identity from the ground up or refining a digital product for seamless usability, I blend strategy, creativity, and functionality to bring ideas to life. Let's collaborate and make something extraordinary."
+                Desenvolvedor Fullstack focado na criação de aplicações modernas utilizando React, JavaScript, TypeScript, Node.js e C#. Possuo conhecimentos em banco de dados, integração de APIs, Inteligência Artificial e resolução de problemas através da lógica de programação. Tenho interesse em arquitetura de software, desenvolvimento escalável e qualidade de código. Atualmente curso Análise e Desenvolvimento de Sistemas e busco oportunidades para aplicar e expandir meus conhecimentos em projetos reais."
               </p>
             </div>
           </div>
@@ -184,9 +185,9 @@ function Index() {
 
         {/* FOOTER */}
         <footer id="contact" className="px-8 lg:px-12 mt-24 mb-10 pt-8 border-t border-border flex flex-wrap items-center justify-between gap-4">
-          <p className="text-xs text-muted-foreground">© 2026 Dominic Studio. All rights reserved.</p>
+          <p className="text-xs text-muted-foreground">© 2026 Alan Carvalho. Todos os direitos reservados.</p>
           <div className="flex items-center gap-2 text-xs text-muted-foreground">
-            <Lock className="h-3 w-3" /> Secure Site
+            <Lock className="h-3 w-3" /> Site Seguro
           </div>
         </footer>
       </div>
