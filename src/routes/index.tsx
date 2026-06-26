@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { ArrowRight, Menu, Circle, CircleDot, Hourglass, ToggleRight, FastForward, Lock } from "lucide-react";
-import portrait from "@/assets/profile.png";
+import profile from "@/assets/profile.png";
 import soundwave from "@/assets/portfolio-soundwave.jpg";
 
 export const Route = createFileRoute("/")({
@@ -13,10 +13,10 @@ export const Route = createFileRoute("/")({
 });
 
 const services = [
-  { title: "Desenvolvimento de Software", desc: "Intuitive and engaging experiences tailored for your audience." },
-  { title: "Branding & Design", desc: "Strong visual storytelling that makes your brand unforgettable." },
-  { title: "UI & UX Design", desc: "Pixel-perfect designs optimized for all devices." },
-  { title: "Web & Mobile Development", desc: "Interactive mockups to bring ideas to life before development." },
+  { title: "Desenvolvimento de Software", desc: "Desenvolvedor Full Stack especializado na criação de aplicações modernas, escaláveis e responsivas." },
+  { title: "Banco de dados", desc: "Modelagem, gerenciamento e otimização de bancos de dados relacionais e não relacionais para aplicações seguras e escaláveis." },
+  { title: "Cloud & Deploy", desc: "Configuração de ambientes, deploy contínuo e hospedagem de aplicações utilizando Docker, Git e plataformas de cloud." },
+  { title: "Técnico em Informática", desc: "Especialista em manutenção de notebooks e computadores, montagem e upgrades." },
 ];
 
 const stats = [
@@ -73,7 +73,7 @@ function Index() {
             <div className="col-span-12 lg:col-span-5">
               <div className="relative mx-auto aspect-[4/5] w-full max-w-[420px] overflow-hidden rounded-b-[210px] rounded-t-[210px] lg:rounded-t-[0] lg:rounded-b-[210px]">
                 <img
-                  src={portrait}
+                  src={profile}
                   alt="Portrait of Solt, UI/UX and brand designer"
                   width={896}
                   height={1024}
