@@ -28,70 +28,52 @@
   --color-border: var(--border);
   --color-input: var(--input);
   --color-ring: var(--ring);
-  --font-serif: "Fraunces", Georgia, serif;
+  --color-surface: var(--surface);
+  --font-display: "Archivo Black", "Inter", sans-serif;
+  --font-serif: "Instrument Serif", Georgia, serif;
   --font-sans: "Inter", system-ui, sans-serif;
 }
 
 :root {
-  --radius: 0.75rem;
-  /* Soft cream */
-  --background: oklch(0.965 0.012 85);
-  /* Deep anthracite */
-  --foreground: oklch(0.18 0.01 60);
-  --card: oklch(0.995 0.005 85);
-  --card-foreground: oklch(0.18 0.01 60);
-  --popover: oklch(0.995 0.005 85);
-  --popover-foreground: oklch(0.18 0.01 60);
-  /* Terracotta / dark carmine */
-  --primary: oklch(0.48 0.14 32);
-  --primary-foreground: oklch(0.98 0.01 85);
-  --secondary: oklch(0.92 0.012 80);
-  --secondary-foreground: oklch(0.18 0.01 60);
-  --muted: oklch(0.92 0.012 80);
-  --muted-foreground: oklch(0.45 0.015 60);
+  --radius: 1.25rem;
+  /* Outer page warm gray */
+  --background: oklch(0.88 0.005 80);
+  /* Inner canvas off-white */
+  --surface: oklch(0.945 0.005 85);
+  --foreground: oklch(0.18 0.005 60);
+  --card: oklch(0.945 0.005 85);
+  --card-foreground: oklch(0.18 0.005 60);
+  --popover: oklch(0.97 0.003 85);
+  --popover-foreground: oklch(0.18 0.005 60);
+  --primary: oklch(0.18 0.005 60);
+  --primary-foreground: oklch(0.97 0.003 85);
+  --secondary: oklch(0.92 0.005 80);
+  --secondary-foreground: oklch(0.18 0.005 60);
+  --muted: oklch(0.92 0.005 80);
+  --muted-foreground: oklch(0.5 0.008 60);
   --accent: oklch(0.55 0.16 32);
-  --accent-foreground: oklch(0.98 0.01 85);
+  --accent-foreground: oklch(0.98 0.005 85);
   --destructive: oklch(0.55 0.22 27);
-  --destructive-foreground: oklch(0.98 0.01 85);
-  --border: oklch(0.86 0.012 70);
-  --input: oklch(0.86 0.012 70);
-  --ring: oklch(0.48 0.14 32);
+  --destructive-foreground: oklch(0.98 0.005 85);
+  --border: oklch(0.83 0.005 70);
+  --input: oklch(0.83 0.005 70);
+  --ring: oklch(0.18 0.005 60);
 }
 
 @layer base {
-  * {
-    border-color: var(--color-border);
-  }
+  * { border-color: var(--color-border); }
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
     font-family: var(--font-sans);
-    font-feature-settings: "ss01", "cv11";
+    -webkit-font-smoothing: antialiased;
   }
   h1, h2, h3, h4 {
-    font-family: var(--font-serif);
-    font-weight: 500;
-    letter-spacing: -0.02em;
+    font-family: var(--font-display);
+    font-weight: 400;
+    letter-spacing: -0.01em;
   }
 }
 
-@utility serif {
-  font-family: var(--font-serif);
-}
-
-@utility link-underline {
-  position: relative;
-  &::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -4px;
-    height: 1px;
-    width: 0;
-    background-color: var(--color-primary);
-    transition: width 250ms ease;
-  }
-  &:hover::after {
-    width: 100%;
-  }
-}
+@utility font-display { font-family: var(--font-display); }
+@utility font-serif-italic { font-family: var(--font-serif); font-style: italic; font-weight: 400; }
