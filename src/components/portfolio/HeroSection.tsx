@@ -36,7 +36,7 @@ export function HeroSection() {
         <div className="flex items-center gap-4 text-[10px] tracking-[0.15em] font-display text-muted-foreground">
           <span className="flex items-center gap-1.5">
             <MapPin className="h-3 w-3" strokeWidth={1.5} />
-            Brasil
+            Atendimento em todo o Brasil.
           </span>
         </div>
       </div>
