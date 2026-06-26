@@ -8,6 +8,7 @@ import { ProjectsSection } from "@/components/portfolio/ProjectsSection";
 import { CertificationsSection } from "@/components/portfolio/CertificationsSection";
 import { WorkProcessSection } from "@/components/portfolio/WorkProcessSection";
 import { ObjectivesSection } from "@/components/portfolio/ObjectivesSection";
+import { FeedbackSection } from "@/components/portfolio/FeedbackSection";
 import { ContactSection } from "@/components/portfolio/ContactSection";
 
 export const Route = createFileRoute("/")({
@@ -37,6 +38,7 @@ function Index() {
         <CertificationsSection />
         <WorkProcessSection />
         <ObjectivesSection />
+        <FeedbackSection />
         <ContactSection />
 
         <footer className="px-4 sm:px-8 lg:px-12 mt-8 mb-8 pt-6 border-t border-border flex flex-wrap items-center justify-between gap-4">
