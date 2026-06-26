@@ -1,41 +1,37 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { ArrowRight, Menu, Circle, CircleDot, Hourglass, ToggleRight, FastForward, Lock } from "lucide-react";
-import portrait from "@/assets/portrait.jpg";
+import portrait from "@/assets/profile.png";
 import soundwave from "@/assets/portfolio-soundwave.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Dominic — UI/UX & Brand Designer" },
-      { name: "description", content: "Portfolio of Solt — UI/UX and brand designer crafting meaningful brands and intuitive experiences." },
+      { title: "Alan Carvalho - Portfólio" },
     ],
   }),
   component: Index,
 });
 
 const services = [
-  { title: "User-Centered Design", desc: "Intuitive and engaging experiences tailored for your audience." },
-  { title: "Brand Identity & Strategy", desc: "Strong visual storytelling that makes your brand unforgettable." },
-  { title: "Responsive & Modern UI", desc: "Pixel-perfect designs optimized for all devices." },
-  { title: "Seamless Prototyping", desc: "Interactive mockups to bring ideas to life before development." },
+  { title: "Desenvolvimento de Software", desc: "Intuitive and engaging experiences tailored for your audience." },
+  { title: "Branding & Design", desc: "Strong visual storytelling that makes your brand unforgettable." },
+  { title: "UI & UX Design", desc: "Pixel-perfect designs optimized for all devices." },
+  { title: "Web & Mobile Development", desc: "Interactive mockups to bring ideas to life before development." },
 ];
 
 const stats = [
-  { value: "15+", label: "Years Experience" },
-  { value: "280+", label: "Projects Delivered" },
-  { value: "*99%", label: "Client Satisfaction" },
-  { value: "50", label: "Clients worldwide" },
+  { value: "" },
 ];
 
 const trusted = [
-  { icon: Circle, name: "Frame Blox" },
-  { icon: CircleDot, name: "Supa Blox" },
-  { icon: Hourglass, name: "Hype Blox" },
-  { icon: ToggleRight, name: "Ultra Blox" },
-  { icon: FastForward, name: "Ship Blox" },
-  { icon: Circle, name: "Frame Blox" },
-  { icon: ToggleRight, name: "Ultra Blox" },
-  { icon: FastForward, name: "Ship Blox" },
+  { icon: Circle, name: "Type Script" },
+  { icon: CircleDot, name: "Java Script" },
+  { icon: Hourglass, name: "React" },
+  { icon: ToggleRight, name: "Node.js" },
+  { icon: FastForward, name: "IA" },
+  { icon: Circle, name: "Next.js" },
+  { icon: ToggleRight, name: "SQL" },
+  { icon: FastForward, name: "C#" },
 ];
 
 function Index() {
@@ -46,19 +42,9 @@ function Index() {
         <header className="flex items-center justify-between px-8 lg:px-12 pt-8">
           <a href="#" className="flex items-center gap-2 font-display text-sm tracking-wider">
             <span className="h-2.5 w-2.5 rounded-full bg-foreground inline-block" />
-            DOMINIC
+            Dev
           </a>
-          <button
-            type="button"
-            aria-label="Open menu"
-            className="inline-flex items-center gap-2 rounded-full bg-foreground text-background px-5 py-2.5 text-xs tracking-widest font-display"
-          >
-            MENU
-            <span className="flex flex-col gap-[3px]">
-              <span className="block h-[1.5px] w-3.5 bg-background" />
-              <span className="block h-[1.5px] w-3.5 bg-background" />
-            </span>
-          </button>
+          
         </header>
 
         {/* HERO */}
@@ -66,22 +52,17 @@ function Index() {
           <div className="grid grid-cols-12 gap-6 lg:gap-10 items-start">
             {/* Left text */}
             <div className="col-span-12 lg:col-span-4 pt-4">
-              <p className="font-serif-italic text-[22px] text-foreground/80">Hey. I'm Solt,</p>
-              <h1 className="mt-3 font-display text-[56px] sm:text-[64px] lg:text-[68px] leading-[0.95]">
-                A UI/UX
-                <br />
-                <span className="font-serif-italic font-normal">&amp; Brand</span>
-                <br />
-                DESIGNER
+              <h1 className="mt-3 font-display text-[50px] sm:text-[50px] lg:text-[47px] leading-[0.95]">
+                Alan Carvalho
+                Desenvolvedor de Software
               </h1>
-              <p className="mt-6 font-serif-italic text-[18px] leading-snug text-foreground/85 max-w-[300px]">
-                Transforming ideas into stunning visuals — UI/UX and brand design that captivates, engages, and delivers results.
-              </p>
+              <br />
               <a
                 href="#contact"
-                className="mt-7 inline-flex items-center gap-3 rounded-full bg-foreground text-background pl-5 pr-1.5 py-1.5 text-xs tracking-[0.2em] font-display"
+                className="mt-7 inline-flex items-center gap-1 rounded-full bg-foreground text-background pl-5 pr-1.5 py-1.5 text-xs tracking-[0.2em] font-display"
               >
-                CONTACT ME
+
+                Entre em contato
                 <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-background text-foreground">
                   <ArrowRight className="h-3.5 w-3.5" />
                 </span>
@@ -126,10 +107,8 @@ function Index() {
         {/* TRUSTED BY */}
         <section className="px-8 lg:px-12 mt-24">
           <div className="grid grid-cols-12 gap-6 items-end mb-6">
-            <h2 className="col-span-12 lg:col-span-4 font-display text-[13px] tracking-[0.18em]">TRUSTED BY</h2>
-            <p className="col-span-12 lg:col-span-8 text-xs text-muted-foreground">
-              Join 1,000 companies already building their websites with Frameblox.
-            </p>
+            <h2 className="col-span-12 lg:col-span-4 font-display text-[13px] tracking-[0.18em]">HABILIDADES</h2>
+            <p></p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 border border-border rounded-md">
             {trusted.map((t, i) => {
