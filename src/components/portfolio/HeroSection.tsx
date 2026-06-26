@@ -110,7 +110,7 @@ export function HeroSection() {
                 FORMAÇÃO
               </p>
               <p className="text-xs text-foreground">Análise e Desenvolvimento de Sistemas</p>
-              <p className="text-[10px] text-muted-foreground mt-0.5">Em andamento · 2024 — Presente</p>
+              <p className="text-[10px] text-muted-foreground mt-0.5">Em andamento · 2025 — Presente</p>
             </div>
           </div>
         </div>
