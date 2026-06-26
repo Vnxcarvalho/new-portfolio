@@ -48,7 +48,7 @@ export function HeroSection() {
             Alan<br />Carvalho
           </h1>
           <p className="mt-4 text-[13px] sm:text-[15px] text-muted-foreground max-w-lg leading-relaxed">
-            Desenvolvedor Full Stack focado em construir aplicações modernas, escaláveis e com experiência de usuário de alta qualidade.
+            Desenvolvedor Full Stack especializado em aplicações web de alta performance, plataformas corporativas e experiências digitais escaláveis.
           </p>
           <div className="mt-6 flex flex-wrap items-center gap-3">
             <a
